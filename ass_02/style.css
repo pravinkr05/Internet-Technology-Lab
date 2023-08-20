@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+/* started design of form tag */
+form {
+    width: 50%;
+    border-radius: 5px;
+}
+
+form h1 {
+    margin-bottom: 25px;
+    font-size: 1.9em;
+}
+
+.form-group {
+    margin: 20px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+}
+
+input {
+    margin-top: 3px;
+}
+
+::placeholder {
+    font-size: 0.7em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+.form-group {
+    color: black;
+}
+
+input {
+    height: 30px;
+}
+
+button {
+    margin-left: 200px;
+}
+
+@media only screen and (max-width:1000px) {
+    form {
+        width: 60%;
+        border-radius: 5px;
+    }
+
+    form h1 {
+        margin-bottom: 25px;
+        font-size: 1.9em;
+    }
+
+    .form-group {
+        margin: 20px 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 0.8em;
+    }
+
+    button {
+        margin-left: 150px;
+    }
+}
+
+
+/* Started to make responsive this web page */
+/* when page width 0 to 800px */
+@media only screen and (max-width:800px) {
+    form {
+        width: 70%;
+        border-radius: 5px;
+    }
+
+    form h1 {
+        margin-bottom: 25px;
+        font-size: 1.9em;
+    }
+
+    .form-group {
+        margin: 20px 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 0.8em;
+    }
+
+    button {
+        margin-left: 130px;
+    }
+}
+
+
+/* when page width 0 to 500px */
+@media only screen and (max-width:500px) {
+    form {
+        width: 80%;
+        border-radius: 5px;
+    }
+
+    form h1 {
+        margin-bottom: 25px;
+        font-size: 1.9em;
+    }
+
+    .form-group {
+        margin: 20px 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 0.8em;
+    }
+
+    button {
+        margin-left: 130px;
+    }
+}

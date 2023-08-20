@@ -1,0 +1,94 @@
+<!-- 
+Develop a students' registration form using HTML, CSS and JavaScript. Validate the registration and make the form responsive.
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration form</title>
+
+    <!-- Added bootstrap link for css code -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- form section -->
+      <form
+        style="background-color: #e6e6e6; padding: 10px 20px"
+        action="ass02.html"
+      >
+        <a style="text-align: center; text-decoration: none" href="/"
+          ><h1>Registration Form</h1></a
+        >
+
+        <!-- take enrollment id -->
+        <div class="form-group">
+          <label for="id">Enrollment Id</label>
+          <input
+            type="text"
+            class="form-control"
+            id="id"
+            placeholder="Enter your enrollment id"
+            name="id"
+          />
+        </div>
+
+        <!-- take user pswd -->
+        <div class="form-group">
+          <label for="exampleInputPassword1">User name</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+            placeholder="Enter your username"
+            name="user"
+          />
+        </div>
+
+        <!-- take email address -->
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Enter your email id"
+            name="email"
+          />
+          <small id="emailHelp" class="form-text text-muted"
+            >We'll never share your email with anyone else.</small
+          >
+        </div>
+
+        <!-- submit button -->
+        <button type="submit" class="btn btn-primary" onclick="myfun()">
+          Submit
+        </button>
+      </form>
+    </div>
+
+    <!-- Added bootstrap link for Js code -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      // show alert after clicking submit button
+      function myfun() {
+        alert("your registraion has been completed!");
+      }
+    </script>
+  </body>
+</html>
